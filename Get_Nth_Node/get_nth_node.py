@@ -14,7 +14,7 @@ def get_nth(node, index):
     len = 0
     curr = node
     while curr.next:
-        len+=1 
+        len+=1
         curr = curr.next
 
     if not node:
