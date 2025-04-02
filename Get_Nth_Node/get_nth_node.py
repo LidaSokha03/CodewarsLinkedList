@@ -16,7 +16,7 @@ def get_nth(node, index):
     while curr.next:
         len+=1 
         curr = curr.next
-        
+
     if not node:
         raise Exception
     if index < 0 or not isinstance(index, int) or index > len:
